@@ -87,4 +87,6 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+  #my modules
+  include karol::default
 }
