@@ -1,0 +1,8 @@
+<%# TODO: Add proper repo dir variable later %>
+server {
+  listen 8080;
+  server_name localhost;
+  root /Users/<%= @luser %>/projects/apirails/public;
+  passenger_enabled on;
+  rack_env development;
+}
